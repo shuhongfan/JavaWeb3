@@ -83,4 +83,9 @@ public class JSPController {
         model.addAttribute("id",id);
         return "voteAdd";
     }
+
+    @RequestMapping("/jdbc/addUser")
+    public String addUser(){
+        return "addUser";
+    }
 }

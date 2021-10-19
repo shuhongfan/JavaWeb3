@@ -9,18 +9,45 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2eab1f3a-475a-4bf1-a224-818a6a21b6e0" name="更改" comment="2021.10.12 start">
-      <change afterPath="$PROJECT_DIR$/Work1/src/main/webapp/WEB-INF/templates/error.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Work1/src/main/webapp/WEB-INF/templates/login.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Work1/src/main/webapp/WEB-INF/templates/loginMethods.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Work1/src/main/webapp/WEB-INF/templates/register.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Work1/src/main/webapp/WEB-INF/templates/registerMethods.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Work1/src/main/webapp/WEB-INF/templates/times.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Work1/src/main/webapp/WEB-INF/templates/vote.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Work1/src/main/webapp/WEB-INF/templates/voteAdd.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Work1/src/main/webapp/WEB-INF/templates/welcome.jsp" afterDir="false" />
+    <list default="true" id="2eab1f3a-475a-4bf1-a224-818a6a21b6e0" name="更改" comment="2021.10.14 湖工实验3">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_37.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Work1/src/main/webapp/CounterForward.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Work1/src/main/webapp/CounterInclude.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Work1/src/main/webapp/Hi.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Work1/src/main/webapp/Sum.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Work1/src/main/webapp/Table.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Work1/src/main/webapp/WEB-INF/templates/addUser.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Work1/src/main/webapp/WEB-INF/templates/newVote.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Work1/src/main/webapp/addUser.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Work1/src/main/webapp/error.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Work1/src/main/webapp/jdbcAddUser.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Work1/src/main/webapp/jdbcAlter.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Work1/src/main/webapp/jdbcAlterController.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Work1/src/main/webapp/jdbcDelete.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Work1/src/main/webapp/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Work1/src/main/webapp/loginMethods.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Work1/src/main/webapp/newVote.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Work1/src/main/webapp/register.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Work1/src/main/webapp/registerMethods.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Work1/src/main/webapp/selectClass.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Work1/src/main/webapp/showScore.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Work1/src/main/webapp/showScoreInfo.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Work1/src/main/webapp/sum100.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Work1/src/main/webapp/times.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Work1/src/main/webapp/vote.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Work1/src/main/webapp/voteAdd.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Work1/src/main/webapp/welcome.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Work1_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/Work1_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Work1/Work1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Work1/Work1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Work1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Work1/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Work1/src/main/java/com/shf/mvc/controller/JSPController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Work1/src/main/java/com/shf/mvc/controller/JSPController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Work1/src/main/webapp/Counter.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/Work1/src/main/webapp/Counter.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Work1/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Work1/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Work1/target/Work1-1.0-SNAPSHOT/Counter.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/Work1/target/Work1-1.0-SNAPSHOT/Counter.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Work1/target/Work1-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Work1/target/Work1-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,11 +96,14 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/SQL 方言" value="MySQL" />
     <property name="jdk.selected.JAVA_MODULE" value="16" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Work1/src/main/webapp/WEB-INF/templates" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Work1/src/main/webapp" />
     <property name="project.structure.last.edited" value="模块" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -81,11 +111,12 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\DEMO\JavaWeb3\Work1\src\main\webapp" />
       <recent name="D:\DEMO\JavaWeb3\Work1\src\main\webapp\WEB-INF\templates" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\DEMO\JavaWeb3\Work1\src\main\webapp\WEB-INF\templates" />
       <recent name="D:\DEMO\JavaWeb3\Work1\src\main\webapp" />
+      <recent name="D:\DEMO\JavaWeb3\Work1\src\main\webapp\WEB-INF\templates" />
       <recent name="D:\DEMO\JavaWeb3\Work1\src\main\webapp\WEB-INF" />
       <recent name="D:\DEMO\JavaWeb3\src\test\java" />
       <recent name="D:\DEMO\JavaWeb3\src\test" />
@@ -130,7 +161,7 @@
     <configuration name="Tomcat 8.5.70" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.70" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
       <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
-      <option name="UPDATING_POLICY" value="restart-server" />
+      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
       <deployment>
         <artifact name="Work1:war exploded">
           <settings>
@@ -241,7 +272,9 @@
       <workItem from="1633998105584" duration="7178000" />
       <workItem from="1634005992068" duration="284000" />
       <workItem from="1634169816393" duration="8840000" />
-      <workItem from="1634185741318" duration="2593000" />
+      <workItem from="1634185741318" duration="2863000" />
+      <workItem from="1634522624105" duration="2443000" />
+      <workItem from="1634601422089" duration="14618000" />
     </task>
     <task id="LOCAL-00001" summary="2021.10.12 start">
       <created>1634006193452</created>
@@ -257,7 +290,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634006245708</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="2021.10.14 湖工实验3">
+      <created>1634188612626</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1634188612626</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -277,6 +317,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2021.10.12 start" />
-    <option name="LAST_COMMIT_MESSAGE" value="2021.10.12 start" />
+    <MESSAGE value="2021.10.14 湖工实验3" />
+    <option name="LAST_COMMIT_MESSAGE" value="2021.10.14 湖工实验3" />
   </component>
 </project>
