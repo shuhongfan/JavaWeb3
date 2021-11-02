@@ -34,7 +34,7 @@
     英语: <input type="text" name="yy" disabled value="<%=resultSet.getString("yy")%>"> <br>
     总分: <input type="text" name="zf" disabled value="<%=resultSet.getString("zf")%>"> <br>
     <%}%>
-    <a href="/selectClass.jsp">返回选择班级页面</a>
+    <a href="/demo4/selectClass.jsp">返回选择班级页面</a>
 </form>
 </body>
 </html>

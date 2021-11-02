@@ -14,6 +14,7 @@
     <title>Title</title>
 </head>
 <body>
+<%@ page import="static com.shf.mvc.beans.DbBean.con" %>
 <%
     request.setCharacterEncoding("UTF-8");
     String bh = request.getParameter("bh");
@@ -23,9 +24,6 @@
     String sx = request.getParameter("sx");
     String yy = request.getParameter("yy");
     String zf = String.valueOf(Double.parseDouble(yw)+Double.parseDouble(sx)+Double.parseDouble(yy));
-
-    Class.forName("com.mysql.jdbc.Driver");
-    Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/test1", "root", "root");
 
     PreparedStatement preparedStatement = con.prepareStatement("insert into score values (?,?,?,?,?,?,?)");
 
@@ -42,7 +40,7 @@
     preparedStatement.close();
     con.close();
 
-    response.sendRedirect("/selectClass.jsp");
+    response.sendRedirect("/demo4/selectClass.jsp");
 %>
 </body>
 </html>

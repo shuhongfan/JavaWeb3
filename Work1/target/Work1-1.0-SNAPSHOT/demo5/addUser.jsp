@@ -11,7 +11,7 @@
     <title>addUser</title>
 </head>
 <body>
-<form action="/jdbcAddUser.jsp" method="post" style="margin: auto;width: 500px;text-align: center">
+<form action="/demo5/jdbcAddUser.jsp" method="post" style="margin: auto;width: 500px;text-align: center">
 <h2>学生成绩增加</h2>
     班级：
     <select name="bh" id="">

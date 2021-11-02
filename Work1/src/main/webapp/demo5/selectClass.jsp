@@ -11,7 +11,7 @@
     <title>Title</title>
 </head>
 <body>
-<form action="/showScore.jsp">
+<form action="/demo5/showScore.jsp">
     <h2>部门：
         <select name="bh" id="">
             <option value="200201011">200201011</option>

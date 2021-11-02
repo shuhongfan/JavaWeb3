@@ -25,7 +25,7 @@
     <title>Title</title>
 </head>
 <body>
-<form action="jdbcAlterController.jsp">
+<form action="/demo4/jdbcAlterController.jsp">
     <h2>学生成绩</h2>
     班级: <input type="text" name="bh" value="<%=resultSet.getString("bh")%>"> <br>
     学号: <input type="text" name="xh" value="<%=resultSet.getString("xh")%>" readonly> <br>

@@ -22,7 +22,6 @@
     int count= Integer.parseInt(cou);
 
     int pageSize=2;
-    int indexPage=1;
     int currentPage=1;
     int pageNumber=count%pageSize==0?count/pageSize:count/pageSize+1;
     if (getPage == 0) currentPage=1;
@@ -61,19 +60,19 @@
             <td><em><%=resultSet.getString("xm")%></em></td>
             <td><em><%=resultSet.getString("bh")%></em></td>
             <td><em><%=resultSet.getString("zf")%></em></td>
-            <td><em><a href="/showScoreInfo.jsp?xh=<%=resultSet.getString("xh")%>">详情</a></em></td>
-            <td><em><a href="/jdbcAlter.jsp?xh=<%=resultSet.getString("xh")%>">修改</a></em></td>
-            <td><em><a href="/jdbcDelete.jsp?xh=<%=resultSet.getString("xh")%>">删除</a></em></td>
+            <td><em><a href="/demo4/showScoreInfo.jsp?xh=<%=resultSet.getString("xh")%>">详情</a></em></td>
+            <td><em><a href="/demo4/jdbcAlter.jsp?xh=<%=resultSet.getString("xh")%>">修改</a></em></td>
+            <td><em><a href="/demo4/jdbcDelete.jsp?xh=<%=resultSet.getString("xh")%>">删除</a></em></td>
         </tr>
         <%}%>
         <p>
             <span>第 <%=currentPage%> 页， 共 <%=pageNumber%> 页</span>
-            <a href="/showScore.jsp?bh=<%=bh%>">首页</a>
+            <a href="/demo4/showScore.jsp?bh=<%=bh%>">首页</a>
             <% if(currentPage!=1){%>
-                <a href="/showScore.jsp?bh=<%=bh%>&page=<%=currentPage-1%>">上一页</a>
+                <a href="/demo4/showScore.jsp?bh=<%=bh%>&page=<%=currentPage-1%>">上一页</a>
             <%}%>
             <% if(currentPage!=pageNumber){%>
-                <a href="/showScore.jsp?bh=<%=bh%>&page=<%=currentPage+1%>">下一页</a>
+                <a href="/demo4/showScore.jsp?bh=<%=bh%>&page=<%=currentPage+1%>">下一页</a>
             <%}%>
             <input type="text" placeholder="跳转到第 N 页" id="N">
             <a href="javascript:;" onclick="toShowScore(<%=bh%>)">跳转</a>
@@ -88,7 +87,7 @@
     <script>
         function toShowScore(bh) {
             var N = document.getElementById('N').value;
-            window.location.href="/showScore.jsp?bh="+bh+"&page="+N
+            window.location.href="/demo4/showScore.jsp?bh="+bh+"&page="+N
         }
 
     </script>

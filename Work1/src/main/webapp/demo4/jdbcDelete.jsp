@@ -22,7 +22,7 @@
     preparedStatement.close();
     con.close();
 
-    response.sendRedirect("/selectClass.jsp");
+    response.sendRedirect("/demo4/selectClass.jsp");
 %>
 <html>
 <head>
