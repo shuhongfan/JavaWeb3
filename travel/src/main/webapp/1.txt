@@ -1,0 +1,10 @@
+1，找到项目的端口对应的进程：
+
+netstat -ano|findstr "80"
+2，找到进程对应的程序 看看是不是可以 关掉：
+
+tasklist|findstr "5476"
+
+3，停止这个进程，使用pid比较直观:
+
+taskkill /f /t /im 5476

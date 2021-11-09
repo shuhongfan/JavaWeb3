@@ -9,54 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2eab1f3a-475a-4bf1-a224-818a6a21b6e0" name="更改" comment="2021.11.2 湖工实验5">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jstl_jstl_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Work1/src/main/java/com/shf/mvc/beans/ScoreClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Work1/src/main/java/com/shf/mvc/beans/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Work1/src/main/java/com/shf/mvc/filter/AddFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Work1/src/main/java/com/shf/mvc/listener/loginListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Work1/src/main/java/com/shf/mvc/servlet/AddUserServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Work1/src/main/java/com/shf/mvc/servlet/SysInfoServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Work1/src/main/java/com/shf/mvc/servlet/addBjServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Work1/src/main/java/com/shf/mvc/servlet/addUsernameServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Work1/src/main/java/com/shf/mvc/servlet/computedServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Work1/src/main/java/com/shf/mvc/servlet/isValidBJServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Work1/src/main/java/com/shf/mvc/servlet/isValidUsernameServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Work1/src/main/java/com/shf/mvc/servlet/loginSerVlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Work1/src/main/java/com/shf/mvc/servlet/registerServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Work1/src/main/java/com/shf/mvc/servlet/selectBHByxhServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Work1/src/main/java/com/shf/mvc/servlet/selectBHServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Work1/src/main/java/com/shf/mvc/servlet/selectXSByBH.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Work1/src/main/webapp/demo6/login.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Work1/src/main/webapp/demo6/protect/addUser.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Work1/src/main/webapp/demo6/protect/success.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Work1/src/main/webapp/demo7/SysInfo.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Work1/src/main/webapp/demo7/computed.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Work1/src/main/webapp/demo7/regist.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Work1/src/main/webapp/demo8/addBJ.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Work1/src/main/webapp/demo8/error.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Work1/src/main/webapp/demo8/regist.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Work1/src/main/webapp/demo8/selectBH.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Work1/src/main/webapp/demo8/selectXS.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Work1/src/main/webapp/demo8/success.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Work1_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/Work1_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/webContexts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JSP湖工作业/实验5/021321752215舒洪凡.docx" beforeDir="false" afterPath="$PROJECT_DIR$/JSP湖工作业/实验5/021321752215舒洪凡.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JSP湖工作业/实验6/021321752215舒洪凡.docx" beforeDir="false" afterPath="$PROJECT_DIR$/JSP湖工作业/实验6/021321752215舒洪凡.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JSP湖工作业/实验7/021321752215舒洪凡.docx" beforeDir="false" afterPath="$PROJECT_DIR$/JSP湖工作业/实验7/021321752215舒洪凡.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JSP湖工作业/实验8/021321752215舒洪凡.docx" beforeDir="false" afterPath="$PROJECT_DIR$/JSP湖工作业/实验8/021321752215舒洪凡.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Work1/Work1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Work1/Work1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Work1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Work1/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Work1/src/main/java/com/shf/mvc/beans/DbBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/Work1/src/main/java/com/shf/mvc/beans/DbBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Work1/src/main/resources/springMVC.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Work1/src/main/resources/springMVC.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Work1/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Work1/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Work1/target/Work1-1.0-SNAPSHOT/WEB-INF/classes/springMVC.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Work1/target/Work1-1.0-SNAPSHOT/WEB-INF/classes/springMVC.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Work1/target/Work1-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Work1/target/Work1-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Work1/target/classes/springMVC.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Work1/target/classes/springMVC.xml" afterDir="false" />
-    </list>
+    <list default="true" id="2eab1f3a-475a-4bf1-a224-818a6a21b6e0" name="更改" comment="2021.11.9 湖工实验8" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -72,6 +25,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -335,7 +289,7 @@
       <workItem from="1634910408684" duration="42000" />
       <workItem from="1635208282180" duration="2196000" />
       <workItem from="1635811130868" duration="7587000" />
-      <workItem from="1636353769433" duration="30633000" />
+      <workItem from="1636353769433" duration="30872000" />
     </task>
     <task id="LOCAL-00001" summary="2021.10.12 start">
       <created>1634006193452</created>
@@ -379,7 +333,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635818783107</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="2021.11.9 湖工实验8">
+      <created>1636432648428</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1636432648429</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -403,6 +364,7 @@
     <MESSAGE value="2021.10.19 湖工实验4" />
     <MESSAGE value="2021.10.26 湖工实验5" />
     <MESSAGE value="2021.11.2 湖工实验5" />
-    <option name="LAST_COMMIT_MESSAGE" value="2021.11.2 湖工实验5" />
+    <MESSAGE value="2021.11.9 湖工实验8" />
+    <option name="LAST_COMMIT_MESSAGE" value="2021.11.9 湖工实验8" />
   </component>
 </project>
