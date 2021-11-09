@@ -112,4 +112,86 @@ public class DbBean {
         preparedStatement.close();
         return list;
     }
+
+    public static String selectBHBybh(String bh) throws SQLException {
+        PreparedStatement preparedStatement = con.prepareStatement("select bjmc from class where bjbn=?");
+        preparedStatement.setString(1, bh);
+        ResultSet resultSet = preparedStatement.executeQuery();
+        resultSet.next();
+        String bjmc = resultSet.getString("bjmc");
+        preparedStatement.close();
+        return bjmc;
+    }
+
+    public static List<String> selectBH() throws SQLException {
+        PreparedStatement preparedStatement = con.prepareStatement("select distinct bjmc from class");
+        ResultSet resultSet = preparedStatement.executeQuery();
+        List<String> list = new ArrayList<>();
+        while (resultSet.next()) {
+            String bjmc = resultSet.getString("bjmc");
+            list.add(bjmc);
+        }
+        preparedStatement.close();
+        return list;
+    }
+
+    public static  List<List<String>> selectXSByBH(String bh) throws SQLException {
+        PreparedStatement preparedStatement = con.prepareStatement("select xh,xm from score where bh=(select bjbn from class where bjmc = ?)");
+        preparedStatement.setString(1, bh);
+        ResultSet resultSet = preparedStatement.executeQuery();
+        List<List<String>> list = new ArrayList<>();
+        while (resultSet.next()) {
+            String xh = resultSet.getString("xh");
+            String xm = resultSet.getString("xm");
+            list.add(Arrays.asList(xh,xm));
+        }
+        preparedStatement.close();
+        return list;
+    }
+
+    public static Boolean isValidBJ(String bh) throws SQLException {
+        PreparedStatement preparedStatement = con.prepareStatement("select * from class where bjbn=?");
+        preparedStatement.setString(1, bh);
+        ResultSet resultSet = preparedStatement.executeQuery();
+        if (resultSet.next()) {
+            return false;
+        }
+        return true;
+    }
+
+    public static Boolean addBj(ScoreClass scoreClass) throws SQLException {
+        PreparedStatement preparedStatement = con.prepareStatement("insert into class values (?,?)");
+        preparedStatement.setString(1, scoreClass.getBjbn());
+        preparedStatement.setString(2, scoreClass.getBjmc());
+        int row = preparedStatement.executeUpdate();
+        preparedStatement.close();
+        if (row>0) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    public static Boolean isValidvalidusername(String username) throws SQLException {
+        PreparedStatement preparedStatement = con.prepareStatement("select * from user where username=?");
+        preparedStatement.setString(1, username);
+        ResultSet resultSet = preparedStatement.executeQuery();
+        if (resultSet.next()) {
+            return false;
+        }
+        return true;
+    }
+
+    public static Boolean addUsername(String username,String pwd) throws SQLException {
+        PreparedStatement preparedStatement = con.prepareStatement("insert into user(username,password) values (?,?)");
+        preparedStatement.setString(1, username);
+        preparedStatement.setString(2, pwd);
+        int row = preparedStatement.executeUpdate();
+        preparedStatement.close();
+        if (row>0) {
+            return true;
+        } else {
+            return false;
+        }
+    }
 }
