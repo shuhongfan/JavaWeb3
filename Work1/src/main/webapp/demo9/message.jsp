@@ -17,6 +17,7 @@
 <body>
 <center>
     <h2>${message}</h2>
+    <a href="/exportExcelServlet?filename=${filename}">显示JSP页面</a>
 </center>
 </body>
 </html>

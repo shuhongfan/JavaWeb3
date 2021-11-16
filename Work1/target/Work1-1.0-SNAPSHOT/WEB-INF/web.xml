@@ -164,4 +164,12 @@
         <servlet-name>UploadServlet</servlet-name>
         <url-pattern>/UploadServlet</url-pattern>
     </servlet-mapping>
+    <servlet>
+        <servlet-name>exportExcelServlet</servlet-name>
+        <servlet-class>com.shf.mvc.servlet.exportExcelServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>exportExcelServlet</servlet-name>
+        <url-pattern>/exportExcelServlet</url-pattern>
+    </servlet-mapping>
 </web-app>

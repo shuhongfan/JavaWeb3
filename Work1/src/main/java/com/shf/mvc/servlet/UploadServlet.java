@@ -85,6 +85,7 @@ public class UploadServlet extends HttpServlet {
                         // 保存文件到硬盘
                         item.write(storeFile);
                         request.setAttribute("message", "文件上传成功! 文件名称："+fileName);
+                        request.setAttribute("filename", fileName);
                     }
                 }
             }
